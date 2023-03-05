@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App">
       <h1>Meu Projeto</h1>
-      <Comentario/>
-      <Comentario/>
-      <Comentario/>
+      <Comentario nome="Cristopher" email="cris@gmail.com" data={new Date(2023,3,4)}>
+      Olá, tudo bem?</Comentario>
     </div>
   );
 }
